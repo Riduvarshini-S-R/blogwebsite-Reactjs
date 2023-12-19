@@ -1,18 +1,23 @@
 # Blog website
 
-A simple blog website using ReactJS [The backend stack and database are yet to be determined]. It just displays the blog items added. 
+A simple blog website using ReactJS. It uses JSON server (simple, lightweight, and easy-to-use Node.js-based tool, which acts like a backend) for the backend
 
 ## Features
 - Blog home page - Displays the list of blogs
 - Add blog page - To add a new blog
-- Display blog - To display the selected blog
+- Display blog - To display the selected
+
+### Prerequisites
+
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/)
 
 ## To use
 - Install the dependencies - npm install
-- Run the application - npm start
+- Install JSON server - npm install json-server
+- Start JSON server - npx json-server --watch data/db.json --port 8000
+(JSON Server will be running at http://localhost:8000)
+- Start the application server - npm start
 - The application will be rendered in 'http://localhost:3000'
 
-## Current status
-
-The frontend of the application is currently under development using ReactJS and CSS. This includes the user interface design and interactive components. The backend and database have to be set up post completion
 
