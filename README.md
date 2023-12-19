@@ -13,11 +13,11 @@ Make sure you have the following installed:
 - [Node.js](https://nodejs.org/)
 
 ## To use
-- Install the dependencies - npm install
-- Install JSON server - npm install json-server
-- Start JSON server - npx json-server --watch data/db.json --port 8000
+- Install the dependencies - **npm install**
+- Install JSON server - **npm install json-server**
+- Start JSON server - **npx json-server --watch data/db.json --port 8000**
 (JSON Server will be running at http://localhost:8000)
-- Start the application server - npm start
+- Start the application server - **npm start**
 - The application will be rendered in 'http://localhost:3000'
 
 
